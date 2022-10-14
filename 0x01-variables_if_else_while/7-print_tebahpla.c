@@ -6,5 +6,11 @@
  */
 int main(void)
 {
-	int n;
-	for 9n = 
+	char c;
+	for (c = 'z'; c >= 'a'; c--)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
+}
