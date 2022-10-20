@@ -8,11 +8,11 @@
 
 void print_numbers(void)
 {
-	char i;
+	int ch;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 48; ch <= 58; ch++)
 		(
-		 _putchar();
+		 _putchar(ch);
 		 )
 	_putchar('\n');
 }
