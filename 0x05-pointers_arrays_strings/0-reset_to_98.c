@@ -1,19 +1,16 @@
 #include <stdio.h>
 
-void reset_to_98(int *);
-
 /**
- * main - check the code for Holberton School students
+ * swap_int-Swaps the values of 2 integers.
+ * @a:first argument to be swapped
+ * @b:second argumengt to be swapped
+ *
  *
  *  Return: Always 0.
  */
-int main(void)
+void swap_int(int *a, int *b)
 {
-	int n;
-
-		n = 402;
-		printf("%d\n", n);
-		reset_to_98(&n);
-		printf("%d\n", n);
-		return (0);
+	int p = *a;
+	*a = *b;
+	*b = p;
 }
